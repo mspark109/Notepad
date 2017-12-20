@@ -8,7 +8,7 @@ public class Ex01_IntegerToString {
 		//Q. 입력받은 십진수의 각 자리수를 더해서 return.
 		
 		
-		System.out.println("��: " + solution(123456789));
+		System.out.println("결과: " + solution(123456789));
 
 	}
 	

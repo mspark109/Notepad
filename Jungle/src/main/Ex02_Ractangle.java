@@ -13,7 +13,7 @@ public class Ex02_Ractangle {
 	}
 	
 	public boolean solution(int[] arr){
-		boolean result;
+		boolean result = false;
 		
 		
 		
