@@ -30,7 +30,7 @@ public class EncryptionUtil {
 	}
 	
 	public static String getRandom(int length, boolean upperYn) {
-		StringBuffer sb = new StringBuffer();
+		StringBuilder sb = new StringBuilder();
 		Random rn = new java.security.SecureRandom();
 		
 		if(upperYn){
