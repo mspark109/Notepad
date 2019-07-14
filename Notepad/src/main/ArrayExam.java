@@ -4,6 +4,9 @@ public class ArrayExam {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int[] array = null;
+		
+		
 		int[][] array1 = new int [2][3];
 		
 		/*
