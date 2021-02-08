@@ -32,7 +32,7 @@ public class Q1_Sort {
         
         
         Collections.sort(list, (a, b) -> {
-            String as = String.valueOf(a), bs = String.valueOf(b);
+            String as = Integer.toString(a), bs = Integer.toString(b);
             return -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as));
         });
         

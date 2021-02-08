@@ -1,6 +1,6 @@
 package main;
 
-import common.EncryptionUtil;
+import java.util.HashMap;
 
 public class Ex12_String {
 
@@ -10,11 +10,11 @@ public class Ex12_String {
 		// 대안으로 나온것이 StringBuffer와 StringBuilder이며, 
 		// 둘은 안에 메소드나 기능면에서 거의 같으나, StringBuilder가 좀더 나중에 나온것으로 좀 더 빠르다.
 		
-		String str = "0000001";
+		String str = "dsfds.mp44";
 		
-		for(int i=0; i< 7; i++) {
-			System.out.println(str.charAt(i));
-		}
+		System.out.println(str.substring(str.lastIndexOf('.')+1));
+		HashMap<String, Integer> map = new HashMap<>();
+		
 		
 		/*Random rn1 = new Random();
 		for(int i=0; i<10; i++) System.out.println(rn1.nextInt(100));

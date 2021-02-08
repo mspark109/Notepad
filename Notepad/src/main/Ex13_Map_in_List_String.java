@@ -18,7 +18,7 @@ public class Ex13_Map_in_List_String {
 			map.put("list", arr);
 			map.put("str", "스트링");
 			
-			// cast필수
+			// map에 담을 때 ArrayList를 Object로 담기 때문에, get할 때 형변환 필수 !
 			ArrayList arr2 = (ArrayList) map.get("list");
 			
 			for(int i=0; i<arr2.size(); i++) {
