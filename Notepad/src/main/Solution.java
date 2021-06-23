@@ -43,9 +43,11 @@ public class Solution {
         
     }
 	public static void main(String[] args) {
-		int[] arr= {2, 1, 1, 0, 1};
-		
-		System.out.println(solution(3, 2, arr));
+//		int[] arr= {2, 1, 1, 0, 1};
+//		
+//		System.out.println(solution(3, 2, arr));
+		String myString = "aBc";
+		System.out.print(myString.toLowerCase() == "abc");
 	}
 }
 //

@@ -9,7 +9,7 @@ public class Ex13_Map_in_List_String {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			Map <String, Object> map = new HashMap<String, Object>();
-			ArrayList arr = new ArrayList();
+			ArrayList<String> arr = new ArrayList();
 			
 			arr.add(0, "111");
 			arr.add(1, "222");
